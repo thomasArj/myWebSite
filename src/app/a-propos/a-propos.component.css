@@ -1,0 +1,124 @@
+.tech{
+    font-weight: bold;
+}
+@media screen and (min-width: 1px) and (max-width: 499px) {
+    .haut{
+        margin-top: 20%;
+    }
+    app-menu-desktop{
+        display: none;
+    }
+    .techno{
+        margin-top: 10px;
+    }
+    .tech{
+        margin-top: 10px;
+    }
+    .textintro{
+        margin-top: 10px;
+    }
+    .imgmoi{
+        height: 200px;
+        width: 200px;
+    }
+    .bjr{
+        font-family: 'Permanent Marker', cursive;
+        margin-left: 140px;
+        margin-top: -15px;
+        color: rgb(55, 173, 252);
+    }
+    .hello{
+        font-family: 'Permanent Marker', cursive;
+        margin-left: -150px;
+        color: rgb(55, 173, 252);
+    }
+    .dia{
+        font-family: 'Permanent Marker', cursive;
+        color: rgb(55, 173, 252);
+        margin-top: -18px;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 1500px) {
+    .haut{
+        margin-top: 10%;
+    }
+    app-nav{
+        display: none;
+    }
+    .texteintro{
+        margin-top: 20px;
+    }
+    .techno{
+        margin-top: 15px;
+    }
+    .tech{
+        margin-top: 15px;
+    }
+    .textintro{
+        margin-top: 15px;
+    }
+    .imgmoi{
+        height: 250px;
+        width: 250px;
+    }
+    .bjr{
+        font-family: 'Permanent Marker', cursive;
+        margin-left: 120px;
+        font-size: 35px;
+        color: rgb(55, 173, 252);
+    }
+    .hello{
+        font-family: 'Permanent Marker', cursive;
+        margin-left: -150px;
+        font-size: 35px;
+        color: rgb(55, 173, 252);
+    }
+    .dia{
+        font-family: 'Permanent Marker', cursive;
+        color: rgb(55, 173, 252);
+        font-size: 35px;
+    }
+}
+@media screen and (min-width: 1501px) and (max-width: 10000px) {
+    .container{
+        margin-top: 4%;
+    }
+    .texte{
+        font-size: 20px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    app-nav{
+        display: none;
+    }
+    .texteintro{
+        margin-top: 20px;
+    }
+    .techno{
+        margin-top: 15px;
+    }
+    .tech{
+        margin-top: 15px;
+    }
+    .textintro{
+        margin-top: 15px;
+    }
+    .imgmoi{
+        height: 300px;
+        width: 300px;
+    }
+    .bjr{
+        font-family: 'Permanent Marker', cursive;
+        margin-left: 120px;
+        color: rgb(55, 173, 252);
+    }
+    .hello{
+        font-family: 'Permanent Marker', cursive;
+        margin-left: -150px;
+        color: rgb(55, 173, 252);
+    }
+    .dia{
+        font-family: 'Permanent Marker', cursive;
+        color: rgb(55, 173, 252);
+    }
+}

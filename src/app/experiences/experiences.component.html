@@ -1,0 +1,46 @@
+<app-menu-desktop></app-menu-desktop>
+<app-nav></app-nav>
+<div class="container">
+    <div class="titre has-text-centered title">
+        EXPERIENCES
+    </div>
+</div>
+<div class="container">
+    <div class="has-text-centered" *ngFor="let post of _postArray">
+        <ul>
+            <li class="encadre">{{post.entreprise}}</li>
+            <li>{{post.date}}</li>
+            <li>{{post.poste}}</li>
+        </ul>
+    </div>
+</div>
+<div class="divider"></div>
+<div class="container">
+    <div class="titre has-text-centered title">
+        FORMATIONS
+    </div>
+</div>
+<div class="container">
+    <div class="has-text-centered" *ngFor="let post of _postArrayForms">
+        <ul>
+            <li class="encadre2">{{post.titre}}</li>
+            <li>{{post.date}}</li>
+        </ul>
+    </div>
+</div>
+<div class="divider"></div>
+<div class="container">
+    <div class="titre has-text-centered title">
+        DIPLOMES
+    </div>
+</div>
+<div class="container">
+    <div class="has-text-centered" *ngFor="let post of _postArrayDip">
+        <ul>
+            <li class="encadre3">{{post.titre}}</li>
+            <li>{{post.description}}</li>
+            <li>{{post.date}}</li>
+        </ul>
+    </div>
+</div>
+<app-footer></app-footer>

@@ -1,0 +1,7 @@
+.column {
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(55, 173, 252);
+}
+app-menu-desktop{
+    display: none;
+}

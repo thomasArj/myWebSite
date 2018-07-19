@@ -1,0 +1,385 @@
+.tp{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+@media screen and (min-width: 1px) and (max-width: 499px) {
+    div.titre{
+        margin-top: 20%;
+        font-family: 'Permanent Marker', cursive;
+        color: rgb(55, 173, 252);
+    }
+    .desktop{
+        display: none
+    }
+    app-menu{
+        display: none;
+    }
+    app-menu-desktop{
+        display: none;
+    }
+    .columns{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 3px;
+    }
+    .column{
+        margin-top: 5px;
+    }
+    .titreProjet{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    a{
+        margin-top: 5px;
+    }
+    .projet1{
+        background-image: url("/assets/img/projet1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        height:350px;
+    }
+    .projet2{
+        background-image: url("/assets/img/langerba.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        height:350px;
+    }
+    .projet3{
+        background-image: url("/assets/img/explo.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        height:350px;
+    }
+    .projet4{
+        background-image: url("/assets/img/meme.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        height:350px;
+    }
+    .projet5{
+        background-image: url("/assets/img/wetransfert.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        height:350px;
+    }
+    .projet6{
+        background-image: url("/assets/img/blog.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        height:350px;
+    }
+    .projet {
+      position: relative;
+    }
+
+    .image {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      height: 150px;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: rgba(234, 231, 98, 0.9);
+      border-radius: 10px;
+    }
+
+    .projet:hover,
+    .projet:hover,
+    .overlay {
+      opacity: 1;
+    }
+
+    .text {
+      color: #4A4A4A;
+      position: absolute;
+      top: 50%;
+      left: 17%;
+      transform: translate(-10%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    .pperso{
+        margin-bottom: 60px;
+    }
+    .divider{
+        height: 1px;
+        background: black;
+        width: 40%;
+        margin-left: 30%
+    }
+    .main{
+        margin-bottom: 50px;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 1500px) {
+    .titre{
+        margin-top: 10%;
+        font-family: 'Permanent Marker', cursive;
+        color: rgb(55, 173, 252);
+    }
+    .mobile{
+        display: none;
+    }
+    .projet1{
+        background-image: url("/assets/img/projet1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        height:300px;
+        margin-right: 1px;
+    }
+    .projet2{
+        background-image: url("/assets/img/langerba.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        height:300px;
+        margin-left: 1px;
+    }
+    .projet3{
+        background-image: url("/assets/img/explo.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        height:300px;
+        margin-right: 2px;
+    }
+    .projet4{
+        background-image: url("/assets/img/meme.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        height:300px;
+        margin-left: 1px;
+    }
+    .projet5{
+        background-image: url("/assets/img/wetransfert.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        height:300px;
+        margin-right: 2px;
+    }
+    .projet6{
+        background-image: url("/assets/img/blog.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        height:300px;
+        margin-left: 1px;
+    }
+    .projet {
+        position: relative;
+    }
+
+    .image {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        height: 150px;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: rgba(234, 231, 98, 0.9);
+        border-radius: 10px;
+    }
+
+    .projet:hover .overlay {
+        opacity: 1;
+    }
+
+    .text {
+        color: #4A4A4A;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .rang2{
+        margin-top: -10px;
+    }
+    .pperso{
+        margin-bottom: 60px;
+    }
+    .divider{
+        height: 1px;
+        background: black;
+        width: 40%;
+        margin-left: 30%
+    }
+    .main{
+        margin-bottom: 50px;
+    }
+    app-nav{
+        display: none
+    }
+}
+@media screen and (min-width: 1501px) and (max-width: 10000px) {
+    .titre{
+        margin-top: 3%;
+        font-family: 'Permanent Marker', cursive;
+        color: rgb(55, 173, 252);
+    }
+    .columns{
+        margin-top: 5%;
+    }
+    .mobile{
+        display: none;
+    }
+    app-menu{
+        display: none;
+    }
+    app-nav{
+        display: none
+    }
+    .titreProjet{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    a{
+        margin-top: 5px;
+    }
+    .projet1{
+        background-image: url("/assets/img/projet1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+        height:300px;
+        margin-right: 1px;
+    }
+    .projet2{
+        background-image: url("/assets/img/langerba.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+        height:300px;
+        margin-left: 1px;
+    }
+    .projet3{
+        background-image: url("/assets/img/explo.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+        height:300px;
+        margin-right: 2px;
+    }
+    .projet4{
+        background-image: url("/assets/img/meme.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+        height:300px;
+        margin-left: 1px;
+    }
+    .projet5{
+        background-image: url("/assets/img/wetransfert.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+        height:300px;
+        margin-right: 2px;
+    }
+    .projet6{
+        background-image: url("/assets/img/blog.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+        height:300px;
+        margin-left: 1px;
+    }
+    .projet {
+        position: relative;
+    }
+
+    .image {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        height: 150px;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: rgba(234, 231, 98, 0.9);
+        border-radius: 10px;
+    }
+
+    .projet:hover .overlay {
+        opacity: 1;
+    }
+
+    .text {
+        color: #4A4A4A;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .rang2{
+        margin-top: -10px;
+    }
+    .pperso{
+        margin-bottom: 60px;
+    }
+    .divider{
+        height: 1px;
+        background: black;
+        width: 40%;
+        margin-left: 30%
+    }
+    .main{
+        margin-bottom: 50px;
+    }
+}

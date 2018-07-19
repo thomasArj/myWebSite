@@ -1,0 +1,12 @@
+.container{
+    margin-top: -40px;
+}
+a{
+    color: #4A4A4A;
+}
+a:hover{
+    transition: 0.5s;
+    font-size: 18px;
+    color: black;
+    letter-spacing: 3px;
+}
